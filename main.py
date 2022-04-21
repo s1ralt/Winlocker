@@ -28,7 +28,6 @@ def systemrun():
     os.system("audacity") #Команда которую выполнить по истечении времени
 
 
-if(os.path.exists(LOCKFILE)): #Если файл сесии найден
     SORRYBRO="Вы перезагрузили компьютер, удаление начато..."
     t1me = 300
 screen=Tk()
